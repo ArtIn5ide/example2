@@ -1,0 +1,8 @@
+version: '3'
+services:
+  est_checklist:
+    image: est
+    build: ./
+    container_name: EST_checklist
+    tty: true
+    restart: on-failure
